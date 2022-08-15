@@ -1,5 +1,6 @@
 #![allow(unused)] // it's for not showing warning if some variable unused
 
+use arr_loop::tuples;
 // import lib using "use"
 use rand::Rng; // not standard file
 use std::cmp::Ordering;
@@ -16,7 +17,8 @@ use crate::random::generate_random_age;
 mod flow_control;
 use crate::flow_control::{if_else_condition,match_cmp,match_condition};
 mod arr_loop;
-use crate::arr_loop::{my_loop};
+use crate::arr_loop::{my_loop,while_loop,for_loop,tuples::tuple_learn};
+// use crate::arr_loop::tuples::tuple_learn;
 
 fn main() {
     // let name = print_name();
@@ -30,7 +32,10 @@ fn main() {
     // match_condition(age);
     // match_cmp(age);
 
-    my_loop()
+    // my_loop(); 
+    // while_loop();
+    // for_loop();
+    // tuple_learn();
 }
 
 

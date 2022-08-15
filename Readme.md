@@ -27,3 +27,5 @@ what is const in rust ?
 in rust const is compile-time constants. It is variable similar to let but 
 type have give explicitly unlike let it can implicit. const alway be uppercase
 
+what is tuples in rust ?
+tuples are collection of variable of different type are contructed with ().
