@@ -19,6 +19,10 @@ use crate::flow_control::{if_else_condition,match_cmp,match_condition};
 mod arr_loop;
 use crate::arr_loop::{my_loop,while_loop,for_loop,tuples::tuple_learn};
 // use crate::arr_loop::tuples::tuple_learn;
+mod string_in;
+use crate::string_in::string_in;
+mod casting;
+use crate::casting::casting;
 
 fn main() {
     // let name = print_name();
@@ -36,6 +40,8 @@ fn main() {
     // while_loop();
     // for_loop();
     // tuple_learn();
+    // string_in();
+    casting();
 }
 
 
